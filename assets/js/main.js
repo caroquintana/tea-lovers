@@ -1,11 +1,16 @@
-(function datosObligatorios(){
-		var nomb = document.getElementById("nombre").value;
-		var mail = document.getElementById("mail").value;
-		var direcc = document.getElementById("dire").value;
-		var tefavorito = document.getElementById("opcion_escogida").value;
+var click = document.getElementById("suscribirse").addEventListener("click", datosObligatorios);
 
-		if(nomb === "" || mail === "" || direcc === "" || tefavorito === ""){
-			alert("Todos los campos son obligatorios");
-			return;
-		}
-})();
+function datosObligatorios(el){
+	el.preventDefault();
+	var nomb = document.getElementById("nombre").value;
+	var mail = document.getElementById("mail").value;
+	var direcc = document.getElementById("dire").value;
+	var tefavorito = document.getElementById("opcion_escogida").value;
+
+	if(nomb === "" || mail === "" || direcc === "" || tefavorito === ""){
+		alert("Todos los campos son obligatorios");
+	}else if{
+		alert("¡Muchas gracias por suscribirse!");
+	}
+};
+

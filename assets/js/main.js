@@ -9,7 +9,7 @@ function datosObligatorios(el){
 
 	if(nomb === "" || mail === "" || direcc === "" || tefavorito === ""){
 		alert("Todos los campos son obligatorios");
-	}else if{
+	}else{
 		alert("¡Muchas gracias por suscribirse!");
 	}
 };

@@ -19,7 +19,28 @@
 	<!-- Sección Newsletter -->
 	<section class="color">
 		<div class="newsletter">
-			<button id="suscribirse">Suscríbete a nuestro newsletter</button>
+			<h3>¿TE GUSTA EL TÉ?</h3>
+			<form action ="" >
+				<label for="nom">Ingresa tu nombre:</label><br>
+				<input type="text" id="nombre" name="nombre" title="Escribe tu nombre"/>
+				<label for="email">Ingresa tu email:</label><br>
+				<input type="text" id="mail" name="mail" title="Escribe tu email" />
+				<label for="dire">Ingresa tu dirección:</label><br>
+				<input type="text" id="dire" name="dire" title="Escribe tu dirección" />
+				<label for="te">Té favorito:</label><br>
+				<select name="" id="opcion_escogida" ></>
+					<option value="">Escoge una opción</option>
+					<option value="negro">Negro</option>
+					<option value="verde">Verde</option>
+					<option value="rojo">Rojo</option>
+					<option value="blanco">Blanco</option>
+					<option value="oolong">Oolong</option>
+				</select>
+				<label><input type="checkbox" id="checkbox" value="checkbox">Quiero recibir muestras gratis</label><br>
+				<div>
+					<button type="submit" id="suscribirse" value="submit" onclick="datosObligatorios()">Suscríbete a nuestro newsletter</button>
+				</div>
+			</form>		
 		</div>
 	</section>
 	<!-- Sección nuestra pasión -->

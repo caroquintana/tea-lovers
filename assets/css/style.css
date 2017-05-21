@@ -92,3 +92,45 @@ footer {
 	padding: 20px 30px;
 	color: white;
 }
+
+/* estilos newsletter*/
+.newsletter{
+	text-align: center;
+	display: block;
+	height: 650px;
+
+}
+
+label{
+	display: block;
+	font-size: 18px;
+    color: white;
+    padding: 8px 0px 10px 0;
+}
+input{
+	border-radius: 7px;
+	width: 400px;
+	height: 28px;
+	display: block;
+	margin: 0 auto;
+}
+button#suscribirse {
+    display: block;
+    margin: 0 auto;
+    padding: 30px 54px;
+    color: white;
+    border-radius: 12px;
+    background-color: #8EC641;
+    font-size: 20px;
+    border: 5px solid white;
+}
+
+input#checkbox {
+    display: inline;
+    width: 28px;
+}
+
+h3 {
+    font-size: 40px;
+    color: white;
+}
